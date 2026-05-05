@@ -1,32 +1,13 @@
-# AI Code Explainer 🤖
+# AI Code Explainer UI 🤖
 
-Explain any code using Google Gemini AI
+**🔗 Live Demo:** https://ai-code-explainer-ui.vercel.app  
+**🔗 Backend Repo:** https://github.com/A-M-Subrahmanyam/ai-code-explainer-api  
+**🔗 Backend API:** https://ai-code-explainer-api.onrender.com
 
-## 🔗 Links
+React frontend for AI Code Explainer. Takes user code and displays Gemini AI explanations.
 
-**Live Demo:** https://ai-code-explainer-ui.vercel.app  
-**Backend API:** https://ai-code-explainer-api.onrender.com  
-**GitHub Repo:** https://github.com/A-M-Subrahmanyam/ai-code-explainer-ui
+## Tech Stack
+- React + Vercel
+- Calls Spring Boot REST API
 
-## 🛠 Tech Stack
-
-- **Frontend:** React, deployed on Vercel
-- **Backend:** Spring Boot, deployed on Render  
-- **AI:** Google Gemini API
-
-## ⚡ Features
-
-- Real-time AI code explanations
-- Supports C, Java, Python
-- Full-stack architecture with CORS
-- RESTful API integration
-
-## ⚠️ Note
-
-First request takes ~50 seconds while Render free tier wakes up from sleep.
-
-## 🚀 Run Locally
-
-```bash
-npm install
-npm start
+⚠️ First load takes ~50s while backend wakes up from Render sleep.
