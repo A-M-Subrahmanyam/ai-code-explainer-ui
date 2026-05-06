@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 function App() {
     const [code, setCode] = useState('');
@@ -11,7 +9,7 @@ function App() {
     const [copied, setCopied] = useState(false);
 
     // ✅ CHANGE THIS TO YOUR RENDER JAVA URL
-    const API_URL = 'https://ai-explainer-api.onrender.com/explain';
+
 
     const handleExplain = async () => {
         if (!code.trim()) {
